@@ -1,0 +1,1 @@
+let caftor= document.getElementById("plus").addEventListener("click",()=>{window.location.href="https://eloquentjavascript.net/index.html"})
