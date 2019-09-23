@@ -82,3 +82,10 @@ body{
   flex-wrap: wrap;
   list-style-type: none; 
 }
+.projects li{
+  margin: 10px;
+}
+.projects img{
+  border-radius: 10%;
+  border: none;
+}
