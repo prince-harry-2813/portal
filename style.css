@@ -48,7 +48,7 @@ body{
 }
 
 .topnav a{
-  margin: 0.05%;
+  margin-left: 0.7%;
   float: left;
   display: flex;
   justify-content: center;
@@ -79,6 +79,8 @@ body{
 }
 
 .topnav a:hover{
+  display: flex;
+  margin-left: 0.799%;
   border-radius: 10%;
   background-color: rgba(122, 23, 126, 0.479);
   color: rgb(255, 255, 255);
@@ -89,9 +91,9 @@ body{
   color: white;
   border-radius: 10%;
 } */
-  .topnav img.resize{
-    width:540px;
-    height: auto;
+  .topnav img{
+   display: flex;
+   margin: 5%;
 }
 .projects{
   display: flex;
