@@ -106,6 +106,7 @@ body{
 }
 .projects li{
   margin: 10px;
+  text-align: center;
 }
 .projects img{
   width: 200px;

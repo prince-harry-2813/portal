@@ -1,5 +1,4 @@
 let caftor= document.getElementById("plus").addEventListener("click",()=>{window.location.href="https://eloquentjavascript.net/index.html"})
-filtercategory("all")
 function filtercategory(c) { 
   if(c=="all") {
     var a = document.getElementById("list").getElementsByClassName("filterDiv");
