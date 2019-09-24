@@ -5,7 +5,7 @@ function filtercategory(c) {
     var a = document.getElementById("list").getElementsByClassName("filterDiv");
     for (let i = 0; i < a.length; i++) 
     {
-    a[i].style.display="flex";
+    a[i].style.display="block";
     } 
     return;
   }
@@ -18,7 +18,7 @@ function filtercategory(c) {
  var s = document.getElementById("list").getElementsByClassName(c);
  for (let i = 0; i < s.length; i++) 
  {
- s[i].style.display="flex";
+ s[i].style.display="block";
  }  
  
 }
