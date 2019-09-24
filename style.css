@@ -121,7 +121,7 @@ body{
   display: none;
   position: fixed;
   background-color: #444444;
-  min-width: 100px;
+  min-width: 10px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   margin-top: 8.2ch;
@@ -129,7 +129,7 @@ body{
   border-bottom-right-radius: 10%;
   border: #333;
 }
-.drop1 a {
+.drop1 button {
   float: none;
   color: rgb(255, 255, 255);
   padding: 12px 16px;
@@ -137,7 +137,7 @@ body{
   text-decoration: none;
   display: block;
 }
-.drop1 a:hover {
+.drop1 button:hover {
   background-color:rgb(147, 76, 175);
 }
 .drop0:hover .drop1 {
